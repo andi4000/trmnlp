@@ -29,6 +29,8 @@ jobs:
       - name: Build
         uses: docker/build-push-action@v6
         with:
+          build-args: |
+            RUBY_VERSION=$(cat .ruby-version)
           platforms: |
             linux/amd64
             linux/arm64
