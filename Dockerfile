@@ -1,4 +1,4 @@
-ARG RUBY_VERSION=3.4.1
+ARG RUBY_VERSION=3.4.0
 # ----- BUILD -----
 
 FROM ruby:${RUBY_VERSION} AS builder
