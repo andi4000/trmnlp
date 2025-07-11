@@ -8,7 +8,7 @@ on:
       - "v*"
 
 env:
-  IMAGE_NAME: trmnl/trmnlp
+  IMAGE_NAME: andi4000/trmnlp
 
 jobs:
   build:
