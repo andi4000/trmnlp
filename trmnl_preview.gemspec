@@ -3,7 +3,7 @@
 require_relative "lib/trmnlp/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "trmnl_preview"
+  spec.name = "trmnl_previewx"
   spec.version = TRMNLP::VERSION
   spec.authors = ["Rockwell Schrock"]
   spec.email = ["rockwell@schrock.me"]
